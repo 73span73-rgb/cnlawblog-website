@@ -1,0 +1,17 @@
+{
+  "name": "CNLawBlog",
+  "short_name": "CNLawBlog",
+  "description": "CNLawBlog - The Official Legal, Business & Technology Knowledge Publication",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B132C",
+  "theme_color": "#0B132C",
+  "icons": [
+    {
+      "src": "/assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
