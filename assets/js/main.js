@@ -30,16 +30,34 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Contact Form Interactivity
+  // Contact Form Interactivity & WhatsApp Redirection
   const contactForm = document.getElementById('contact-form');
   const formStatus = document.getElementById('form-status');
-  if (contactForm && formStatus) {
+  if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
       e.preventDefault();
-      formStatus.style.display = 'block';
-      formStatus.className = 'callout';
-      formStatus.innerHTML = '<strong>Thank you!</strong> Your message has been received by the CNLawBlog editorial team. We will respond within 24 hours.';
-      contactForm.reset();
+      
+      const name = document.getElementById('name')?.value || '';
+      const email = document.getElementById('email')?.value || '';
+      const subjectSelect = document.getElementById('subject');
+      const subjectText = subjectSelect ? subjectSelect.options[subjectSelect.selectedIndex].text : '';
+      const message = document.getElementById('message')?.value || '';
+
+      const formattedText = `Hello CNLawBlog Team,%0A%0A*New Inquiry Details:*%0A👤 *Name:* ${encodeURIComponent(name)}%0A📧 *Email:* ${encodeURIComponent(email)}%0A📌 *Subject:* ${encodeURIComponent(subjectText)}%0A💬 *Message:* ${encodeURIComponent(message)}`;
+      const whatsappNumber = "918200194578";
+      const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${formattedText}`;
+
+      if (formStatus) {
+        formStatus.style.display = 'block';
+        formStatus.className = 'callout';
+        formStatus.style.background = '#ecfdf5';
+        formStatus.style.borderColor = '#10b981';
+        formStatus.innerHTML = '<strong>Redirecting...</strong> Opening WhatsApp to send your inquiry directly to our team (+91 8200194578).';
+      }
+
+      setTimeout(() => {
+        window.open(whatsappUrl, '_blank');
+      }, 600);
     });
   }
 });
