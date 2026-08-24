@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Contact Form Interactivity & WhatsApp Redirection
+  // Contact Form Interactivity & Guaranteed WhatsApp Redirection
   const contactForm = document.getElementById('contact-form');
   const formStatus = document.getElementById('form-status');
   if (contactForm) {
@@ -52,12 +52,11 @@ document.addEventListener('DOMContentLoaded', () => {
         formStatus.className = 'callout';
         formStatus.style.background = '#ecfdf5';
         formStatus.style.borderColor = '#10b981';
-        formStatus.innerHTML = '<strong>Redirecting...</strong> Opening WhatsApp to send your inquiry directly to our team (+91 8200194578).';
+        formStatus.innerHTML = '<strong>Redirecting to WhatsApp...</strong> Please wait while we connect you to +91 8200194578.';
       }
 
-      setTimeout(() => {
-        window.open(whatsappUrl, '_blank');
-      }, 600);
+      // Direct synchronous location redirect to prevent browser popup blockers
+      window.location.href = whatsappUrl;
     });
   }
 });
