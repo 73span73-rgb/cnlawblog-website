@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sdCatBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="catAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="500" fill="url(#sdCatBg)" rx="16"/>
+  <circle cx="850" cy="120" r="180" fill="#a855f7" opacity="0.1" filter="blur(45px)"/>
+
+  <rect x="40" y="40" width="920" height="420" rx="16" fill="#ffffff" fill-opacity="0.04" stroke="url(#catAccent)" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="80" y="95" font-family="sans-serif" font-size="24" font-weight="900" fill="#ffffff">SimplifyDiggs.com Multi-Niche Content Verticals</text>
+  <text x="80" y="125" font-family="sans-serif" font-size="15" fill="#cbd5e1">Informational Guides Across Technology, Business, Travel, Automotive, Gaming &amp; Lifestyle</text>
+
+  <!-- Categories Grid -->
+  <g transform="translate(80, 155)">
+    <!-- Tech & AI Card -->
+    <rect x="0" y="0" width="260" height="130" rx="12" fill="#1e293b" stroke="#a855f7" stroke-width="1.5"/>
+    <text x="20" y="35" font-family="sans-serif" font-size="16" font-weight="800" fill="#c084fc">💻 Technology &amp; AI</text>
+    <text x="20" y="65" font-family="sans-serif" font-size="12" fill="#94a3b8">• Digital Tools &amp; Software</text>
+    <text x="20" y="85" font-family="sans-serif" font-size="12" fill="#94a3b8">• Cybersecurity &amp; Cloud</text>
+    <text x="20" y="105" font-family="sans-serif" font-size="12" fill="#94a3b8">• Consumer Tech Trends</text>
+
+    <!-- Business Card -->
+    <rect x="290" y="0" width="260" height="130" rx="12" fill="#1e293b" stroke="#06b6d4" stroke-width="1.5"/>
+    <text x="310" y="35" font-family="sans-serif" font-size="16" font-weight="800" fill="#38bdf8">📊 Business &amp; Marketing</text>
+    <text x="310" y="65" font-family="sans-serif" font-size="12" fill="#94a3b8">• Digital Transformation</text>
+    <text x="310" y="85" font-family="sans-serif" font-size="12" fill="#94a3b8">• Entrepreneurship Ideas</text>
+    <text x="310" y="105" font-family="sans-serif" font-size="12" fill="#94a3b8">• Workplace Productivity</text>
+
+    <!-- Travel Card -->
+    <rect x="580" y="0" width="260" height="130" rx="12" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="600" y="35" font-family="sans-serif" font-size="16" font-weight="800" fill="#fbbf24">✈️ Travel &amp; Destinations</text>
+    <text x="600" y="65" font-family="sans-serif" font-size="12" fill="#94a3b8">• Destination Planning</text>
+    <text x="600" y="85" font-family="sans-serif" font-size="12" fill="#94a3b8">• General Advice &amp; Tips</text>
+    <text x="600" y="105" font-family="sans-serif" font-size="12" fill="#94a3b8">• Travel Experiences</text>
+
+    <!-- Automotive Card -->
+    <rect x="0" y="150" width="260" height="120" rx="12" fill="#1e293b" stroke="#ef4444" stroke-width="1.5"/>
+    <text x="20" y="185" font-family="sans-serif" font-size="16" font-weight="800" fill="#f87171">🚗 Automotive</text>
+    <text x="20" y="215" font-family="sans-serif" font-size="12" fill="#94a3b8">• Car Tech &amp; Features</text>
+    <text x="20" y="235" font-family="sans-serif" font-size="12" fill="#94a3b8">• Maintenance &amp; Advice</text>
+
+    <!-- Gaming Card -->
+    <rect x="290" y="150" width="260" height="120" rx="12" fill="#1e293b" stroke="#10b981" stroke-width="1.5"/>
+    <text x="310" y="185" font-family="sans-serif" font-size="16" font-weight="800" fill="#34d399">🎮 Gaming</text>
+    <text x="310" y="215" font-family="sans-serif" font-size="12" fill="#94a3b8">• Gameplay &amp; Platforms</text>
+    <text x="310" y="235" font-family="sans-serif" font-size="12" fill="#94a3b8">• Gaming Tech Guides</text>
+
+    <!-- Lifestyle Card -->
+    <rect x="580" y="150" width="260" height="120" rx="12" fill="#1e293b" stroke="#ec4899" stroke-width="1.5"/>
+    <text x="600" y="185" font-family="sans-serif" font-size="16" font-weight="800" fill="#f472b6">🌱 Lifestyle &amp; Habits</text>
+    <text x="600" y="215" font-family="sans-serif" font-size="12" fill="#94a3b8">• Personal Development</text>
+    <text x="600" y="235" font-family="sans-serif" font-size="12" fill="#94a3b8">• Everyday Habits</text>
+  </g>
+</svg>
