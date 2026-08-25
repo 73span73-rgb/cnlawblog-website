@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="500" fill="url(#bgGrad4)" rx="16"/>
+  <circle cx="150" cy="400" r="220" fill="#a855f7" opacity="0.12" filter="blur(45px)"/>
+
+  <rect x="50" y="50" width="900" height="400" rx="16" fill="#ffffff" fill-opacity="0.04" stroke="url(#purpleGrad)" stroke-width="1.5"/>
+
+  <!-- Title Header -->
+  <text x="90" y="120" font-family="sans-serif" font-size="28" font-weight="900" fill="#ffffff">Fento Magazine vs Specialist Digital Websites</text>
+  <text x="90" y="155" font-family="sans-serif" font-size="16" fill="#cbd5e1">Understanding Content Purpose, Topic Diversity &amp; Audience Benefits</text>
+
+  <!-- Comparison Infographic Cards -->
+  <g transform="translate(90, 200)">
+    <!-- Fento Magazine Card -->
+    <rect x="0" y="0" width="390" height="200" rx="14" fill="#1e293b" stroke="#a855f7" stroke-width="2"/>
+    <text x="30" y="45" font-family="sans-serif" font-size="20" font-weight="800" fill="#c084fc">Fento Magazine Strengths</text>
+    <text x="30" y="85" font-family="sans-serif" font-size="14" fill="#cbd5e1">✓ Broad Topic Selection (Tech, Business, Travel)</text>
+    <text x="30" y="115" font-family="sans-serif" font-size="14" fill="#cbd5e1">✓ Instagram Captions &amp; Bio Ideas Generator</text>
+    <text x="30" y="145" font-family="sans-serif" font-size="14" fill="#cbd5e1">✓ Accessible to Readers in the United States</text>
+    <text x="30" y="175" font-family="sans-serif" font-size="13" font-weight="700" fill="#e879f9">Ideal for Inspiration &amp; General Reading</text>
+
+    <!-- Specialist Website Card -->
+    <rect x="430" y="0" width="390" height="200" rx="14" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+    <text x="460" y="45" font-family="sans-serif" font-size="20" font-weight="800" fill="#94a3b8">Specialist Expert Portals</text>
+    <text x="460" y="85" font-family="sans-serif" font-size="14" fill="#cbd5e1">• Deep Medical &amp; Financial Regulations</text>
+    <text x="460" y="115" font-family="sans-serif" font-size="14" fill="#cbd5e1">• Formal Legal Advice &amp; Attorney Consultations</text>
+    <text x="460" y="145" font-family="sans-serif" font-size="14" fill="#cbd5e1">• Academic &amp; Institutional Documentation</text>
+    <text x="460" y="175" font-family="sans-serif" font-size="13" font-weight="700" fill="#cbd5e1">Ideal for High-Stakes Professional Advice</text>
+  </g>
+</svg>

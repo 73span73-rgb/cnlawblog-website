@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b132c"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="500" fill="url(#bgGrad3)" rx="16"/>
+  <circle cx="850" cy="150" r="200" fill="#06b6d4" opacity="0.1" filter="blur(40px)"/>
+
+  <rect x="50" y="50" width="900" height="400" rx="16" fill="#ffffff" fill-opacity="0.04" stroke="url(#emeraldGrad)" stroke-width="1.5"/>
+
+  <!-- Main Title -->
+  <text x="90" y="120" font-family="sans-serif" font-size="28" font-weight="900" fill="#ffffff">Technology, Digital Marketing &amp; Business Publishing</text>
+  <text x="90" y="155" font-family="sans-serif" font-size="16" fill="#cbd5e1">Fento Magazine Multi-Topic Digital Portal: Software, AI, Workforce &amp; Trends</text>
+
+  <!-- Laptop & Analytics Graphic -->
+  <g transform="translate(90, 200)">
+    <!-- Tech Category Card 1 -->
+    <rect x="0" y="0" width="260" height="200" rx="14" fill="#1e293b" stroke="#10b981" stroke-width="1.5"/>
+    <text x="30" y="45" font-family="sans-serif" font-size="18" font-weight="800" fill="#10b981">Business Tech</text>
+    <text x="30" y="80" font-family="sans-serif" font-size="13" fill="#94a3b8">• Workplace Systems</text>
+    <text x="30" y="105" font-family="sans-serif" font-size="13" fill="#94a3b8">• Digital Tools &amp; SaaS</text>
+    <text x="30" y="130" font-family="sans-serif" font-size="13" fill="#94a3b8">• Software Trends</text>
+    <text x="30" y="165" font-family="sans-serif" font-size="12" font-weight="700" fill="#34d399">Tech Articles &amp; News →</text>
+
+    <!-- Tech Category Card 2 -->
+    <rect x="290" y="0" width="260" height="200" rx="14" fill="#1e293b" stroke="#06b6d4" stroke-width="1.5"/>
+    <text x="320" y="45" font-family="sans-serif" font-size="18" font-weight="800" fill="#06b6d4">Digital Marketing</text>
+    <text x="320" y="80" font-family="sans-serif" font-size="13" fill="#94a3b8">• Online Branding</text>
+    <text x="320" y="105" font-family="sans-serif" font-size="13" fill="#94a3b8">• Audience Engagement</text>
+    <text x="320" y="130" font-family="sans-serif" font-size="13" fill="#94a3b8">• Small Business Strategy</text>
+    <text x="320" y="165" font-family="sans-serif" font-size="12" font-weight="700" fill="#22d3ee">Marketing Guides →</text>
+
+    <!-- Tech Category Card 3 -->
+    <rect x="580" y="0" width="240" height="200" rx="14" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="610" y="45" font-family="sans-serif" font-size="18" font-weight="800" fill="#f59e0b">US Legal Info</text>
+    <text x="610" y="80" font-family="sans-serif" font-size="13" fill="#94a3b8">• New York State Law</text>
+    <text x="610" y="105" font-family="sans-serif" font-size="13" fill="#94a3b8">• General Disclaimer</text>
+    <text x="610" y="130" font-family="sans-serif" font-size="13" fill="#94a3b8">• Content Verification</text>
+    <text x="610" y="165" font-family="sans-serif" font-size="12" font-weight="700" fill="#fbbf24">Read Disclaimer →</text>
+  </g>
+</svg>
