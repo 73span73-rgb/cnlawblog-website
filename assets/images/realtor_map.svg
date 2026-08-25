@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="rMapBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="mapAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="500" fill="url(#rMapBg)" rx="16"/>
+  <circle cx="800" cy="150" r="180" fill="#f59e0b" opacity="0.1" filter="blur(40px)"/>
+
+  <rect x="40" y="40" width="920" height="420" rx="16" fill="#ffffff" fill-opacity="0.04" stroke="url(#mapAccent)" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="80" y="100" font-family="sans-serif" font-size="26" font-weight="900" fill="#ffffff">Realtor.com FlyAround 3D Maps &amp; Street View Research</text>
+  <text x="80" y="130" font-family="sans-serif" font-size="15" fill="#cbd5e1">Interactive Aerial Lot Perspectives, Neighborhood Context &amp; Property Terrain</text>
+
+  <!-- Map Mockup Component -->
+  <g transform="translate(80, 160)">
+    <!-- Map Grid Card 1 -->
+    <rect x="0" y="0" width="260" height="230" rx="12" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="25" y="40" font-family="sans-serif" font-size="18" font-weight="800" fill="#f59e0b">FlyAround 3D</text>
+    <text x="25" y="75" font-family="sans-serif" font-size="13" fill="#94a3b8">• Aerial Perspective</text>
+    <text x="25" y="100" font-family="sans-serif" font-size="13" fill="#94a3b8">• Property Lot Elevation</text>
+    <text x="25" y="125" font-family="sans-serif" font-size="13" fill="#94a3b8">• Surrounding Terrain</text>
+    <text x="25" y="150" font-family="sans-serif" font-size="13" fill="#94a3b8">• Yard Slope &amp; Boundaries</text>
+    <text x="25" y="195" font-family="sans-serif" font-size="12" font-weight="700" fill="#fbbf24">Explore 3D Terrain →</text>
+
+    <!-- Map Grid Card 2 -->
+    <rect x="290" y="0" width="260" height="230" rx="12" fill="#1e293b" stroke="#10b981" stroke-width="1.5"/>
+    <text x="315" y="40" font-family="sans-serif" font-size="18" font-weight="800" fill="#10b981">Street View</text>
+    <text x="315" y="75" font-family="sans-serif" font-size="13" fill="#94a3b8">• Immediate Block Feel</text>
+    <text x="315" y="100" font-family="sans-serif" font-size="13" fill="#94a3b8">• Adjacent Properties</text>
+    <text x="315" y="125" font-family="sans-serif" font-size="13" fill="#94a3b8">• Nearby Roads &amp; Traffic</text>
+    <text x="315" y="150" font-family="sans-serif" font-size="13" fill="#94a3b8">• Street Sidewalks</text>
+    <text x="315" y="195" font-family="sans-serif" font-size="12" font-weight="700" fill="#34d399">Explore Street View →</text>
+
+    <!-- Map Grid Card 3 -->
+    <rect x="580" y="0" width="260" height="230" rx="12" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="605" y="40" font-family="sans-serif" font-size="18" font-weight="800" fill="#3b82f6">Neighborhood Data</text>
+    <text x="605" y="75" font-family="sans-serif" font-size="13" fill="#94a3b8">• School District Info</text>
+    <text x="605" y="100" font-family="sans-serif" font-size="13" fill="#94a3b8">• Rental Market Rates</text>
+    <text x="605" y="125" font-family="sans-serif" font-size="13" fill="#94a3b8">• Commute &amp; Transit</text>
+    <text x="605" y="150" font-family="sans-serif" font-size="13" fill="#94a3b8">• Local Amenities</text>
+    <text x="605" y="195" font-family="sans-serif" font-size="12" font-weight="700" fill="#60a5fa">Explore Area Info →</text>
+  </g>
+</svg>

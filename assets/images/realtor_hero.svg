@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%">
+  <defs>
+    <linearGradient id="rHeroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b132c"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="rAccentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="rBlueGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <filter id="rShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#rHeroBg)"/>
+
+  <!-- Subtle Grid Lines -->
+  <g stroke="#ffffff" stroke-opacity="0.03" stroke-width="1">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="500" x2="1200" y2="500"/>
+    <line x1="200" y1="0" x2="200" y2="630"/>
+    <line x1="400" y1="0" x2="400" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="800" y1="0" x2="800" y2="630"/>
+    <line x1="1000" y1="0" x2="1000" y2="630"/>
+  </g>
+
+  <!-- Glowing Accents -->
+  <circle cx="150" cy="150" r="220" fill="#d97706" opacity="0.08" filter="blur(40px)"/>
+  <circle cx="1050" cy="480" r="260" fill="#2563eb" opacity="0.1" filter="blur(50px)"/>
+
+  <!-- Main Container Card -->
+  <rect x="80" y="80" width="1040" height="470" rx="24" fill="#ffffff" fill-opacity="0.04" stroke="url(#rAccentGrad)" stroke-width="2" filter="url(#rShadow)"/>
+
+  <!-- Left Content Info -->
+  <text x="140" y="160" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="800" fill="#f59e0b" letter-spacing="2">REAL ESTATE TECH &amp; PROPERTY GUIDE</text>
+  
+  <text x="140" y="225" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="44" font-weight="900" fill="#ffffff">Realtor.com Complete Guide</text>
+  
+  <text x="140" y="275" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="22" font-weight="600" fill="#cbd5e1">Home Search, Listings, Tools &amp; Market Resources</text>
+
+  <!-- Topic Badges -->
+  <g transform="translate(140, 320)">
+    <rect x="0" y="0" width="170" height="40" rx="20" fill="url(#rAccentGrad)"/>
+    <text x="85" y="25" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">FlyAround 3D</text>
+
+    <rect x="185" y="0" width="180" height="40" rx="20" fill="url(#rBlueGrad)"/>
+    <text x="275" y="25" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">RealAssist™ AI</text>
+
+    <rect x="380" y="0" width="180" height="40" rx="20" fill="#ffffff" fill-opacity="0.1" stroke="#ffffff" stroke-opacity="0.2"/>
+    <text x="470" y="25" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Mortgage Tools</text>
+  </g>
+
+  <!-- Right Side Graphic: Real Estate Dashboard Mockup -->
+  <g transform="translate(740, 140)">
+    <rect x="0" y="0" width="280" height="380" rx="24" fill="#1e293b" stroke="#475569" stroke-width="3" filter="url(#rShadow)"/>
+    <rect x="12" y="16" width="256" height="348" rx="16" fill="#0f172a"/>
+
+    <!-- Search Header -->
+    <rect x="25" y="35" width="230" height="40" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="40" y="60" font-family="sans-serif" font-size="12" fill="#94a3b8">🔍 Search by City, ZIP or Address</text>
+
+    <!-- Property Card 1 -->
+    <g transform="translate(25, 90)">
+      <rect x="0" y="0" width="230" height="110" rx="10" fill="#1e293b"/>
+      <!-- Roof Icon -->
+      <path d="M15 45 L115 15 L215 45" stroke="#f59e0b" stroke-width="3" fill="none"/>
+      <text x="15" y="65" font-family="sans-serif" font-size="16" font-weight="800" fill="#ffffff">$549,000</text>
+      <text x="15" y="85" font-family="sans-serif" font-size="11" fill="#94a3b8">4 Bed • 3 Bath • 2,450 sqft</text>
+      <text x="15" y="100" font-family="sans-serif" font-size="10" fill="#10b981">FOR SALE • Verified MLS Listing</text>
+    </g>
+
+    <!-- Property Card 2: FlyAround 3D Preview -->
+    <g transform="translate(25, 215)">
+      <rect x="0" y="0" width="230" height="115" rx="10" fill="#10b981" fill-opacity="0.1" stroke="#10b981" stroke-width="1"/>
+      <text x="15" y="30" font-family="sans-serif" font-size="12" font-weight="800" fill="#34d399">FlyAround 3D Map Context</text>
+      <text x="15" y="52" font-family="sans-serif" font-size="11" fill="#cbd5e1">Interactive Aerial Lot &amp; Terrain</text>
+      <rect x="15" y="65" width="200" height="35" rx="6" fill="url(#rAccentGrad)"/>
+      <text x="115" y="87" font-family="sans-serif" font-size="12" font-weight="800" fill="#ffffff" text-anchor="middle">Explore 3D Terrain →</text>
+    </g>
+  </g>
+
+  <!-- CNLawBlog Footer Seal -->
+  <g transform="translate(140, 420)">
+    <rect x="0" y="0" width="380" height="70" rx="12" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="20" y="32" font-family="sans-serif" font-size="14" font-weight="800" fill="#ffffff">CNLawBlog Tech &amp; Real Estate Review</text>
+    <text x="20" y="52" font-family="sans-serif" font-size="12" fill="#94a3b8">Verified Editorial Guide • cnlawblog.shop</text>
+  </g>
+</svg>
