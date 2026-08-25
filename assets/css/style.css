@@ -907,3 +907,128 @@ body {
     padding: 1.5rem;
   }
 }
+
+/* Blog Card Grid Styles (3 Columns x 3 Rows) */
+.blog-grid-3col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
+  margin-top: 1.5rem;
+}
+
+.blog-card {
+  background: #ffffff;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--card-shadow);
+  transition: var(--transition);
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--card-hover);
+  border-color: var(--accent);
+}
+
+.blog-card-img-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: var(--primary);
+}
+
+.blog-card-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.blog-card:hover .blog-card-img-wrap img {
+  transform: scale(1.05);
+}
+
+.blog-card-body {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.blog-card-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.blog-card-category {
+  background: rgba(16, 185, 129, 0.12);
+  color: var(--accent);
+  font-weight: 800;
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.blog-card-title {
+  font-size: 1.1rem;
+  font-weight: 800;
+  line-height: 1.4;
+  margin-bottom: 0.6rem;
+  color: var(--primary);
+}
+
+.blog-card-title a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.blog-card-title a:hover {
+  color: var(--accent);
+}
+
+.blog-card-excerpt {
+  font-size: 0.88rem;
+  color: #475569;
+  line-height: 1.55;
+  margin-bottom: 1.25rem;
+  flex-grow: 1;
+}
+
+.blog-card-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--accent);
+  text-decoration: none;
+  margin-top: auto;
+}
+
+.blog-card-btn:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+  .blog-grid-3col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .blog-grid-3col {
+    grid-template-columns: 1fr;
+  }
+}
