@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="tpwCatBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071828"/>
+      <stop offset="100%" stop-color="#0f2942"/>
+    </linearGradient>
+    <linearGradient id="catAccentTpw" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="500" fill="url(#tpwCatBg)" rx="16"/>
+  <circle cx="850" cy="120" r="180" fill="#0d9488" opacity="0.12" filter="blur(45px)"/>
+
+  <rect x="40" y="40" width="920" height="420" rx="16" fill="#ffffff" fill-opacity="0.04" stroke="url(#catAccentTpw)" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="80" y="95" font-family="sans-serif" font-size="24" font-weight="900" fill="#ffffff">TablesProWorld.com Multi-Topic Content Categories</text>
+  <text x="80" y="125" font-family="sans-serif" font-size="15" fill="#cbd5e1">Informational Guides Across Technology, Business, Finance, Health, Education, Travel &amp; Automotive</text>
+
+  <!-- Categories Grid -->
+  <g transform="translate(80, 155)">
+    <!-- Tech Card -->
+    <rect x="0" y="0" width="260" height="130" rx="12" fill="#152e4d" stroke="#2dd4bf" stroke-width="1.5"/>
+    <text x="20" y="35" font-family="sans-serif" font-size="16" font-weight="800" fill="#2dd4bf">💻 Technology &amp; AI</text>
+    <text x="20" y="65" font-family="sans-serif" font-size="12" fill="#94a3b8">• Digital Tools &amp; Software</text>
+    <text x="20" y="85" font-family="sans-serif" font-size="12" fill="#94a3b8">• Consumer Tech &amp; Safety</text>
+    <text x="20" y="105" font-family="sans-serif" font-size="12" fill="#94a3b8">• Online Platforms &amp; Productivity</text>
+
+    <!-- Business Card -->
+    <rect x="290" y="0" width="260" height="130" rx="12" fill="#152e4d" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="310" y="35" font-family="sans-serif" font-size="16" font-weight="800" fill="#38bdf8">📊 Business &amp; Operations</text>
+    <text x="310" y="65" font-family="sans-serif" font-size="12" fill="#94a3b8">• Small Business &amp; Strategy</text>
+    <text x="310" y="85" font-family="sans-serif" font-size="12" fill="#94a3b8">• Entrepreneurship Ideas</text>
+    <text x="310" y="105" font-family="sans-serif" font-size="12" fill="#94a3b8">• Workplace Marketing</text>
+
+    <!-- Finance Card -->
+    <rect x="580" y="0" width="260" height="130" rx="12" fill="#152e4d" stroke="#fbbf24" stroke-width="1.5"/>
+    <text x="600" y="35" font-family="sans-serif" font-size="16" font-weight="800" fill="#fbbf24">💰 Personal Finance</text>
+    <text x="600" y="65" font-family="sans-serif" font-size="12" fill="#94a3b8">• Personal Budgeting</text>
+    <text x="600" y="85" font-family="sans-serif" font-size="12" fill="#94a3b8">• Financial Literacy</text>
+    <text x="600" y="105" font-family="sans-serif" font-size="12" fill="#94a3b8">• Economic Concepts</text>
+
+    <!-- Health Card -->
+    <rect x="0" y="150" width="260" height="120" rx="12" fill="#152e4d" stroke="#34d399" stroke-width="1.5"/>
+    <text x="20" y="185" font-family="sans-serif" font-size="16" font-weight="800" fill="#34d399">🩺 Health &amp; Wellness</text>
+    <text x="20" y="215" font-family="sans-serif" font-size="12" fill="#94a3b8">• Wellness &amp; Daily Habits</text>
+    <text x="20" y="235" font-family="sans-serif" font-size="12" fill="#94a3b8">• Health Awareness</text>
+
+    <!-- Education Card -->
+    <rect x="290" y="150" width="260" height="120" rx="12" fill="#152e4d" stroke="#c084fc" stroke-width="1.5"/>
+    <text x="310" y="185" font-family="sans-serif" font-size="16" font-weight="800" fill="#c084fc">🎓 Education &amp; Study</text>
+    <text x="310" y="215" font-family="sans-serif" font-size="12" fill="#94a3b8">• Study Strategies</text>
+    <text x="310" y="235" font-family="sans-serif" font-size="12" fill="#94a3b8">• Online Learning Tools</text>
+
+    <!-- Travel & Auto Card -->
+    <rect x="580" y="150" width="260" height="120" rx="12" fill="#152e4d" stroke="#f472b6" stroke-width="1.5"/>
+    <text x="600" y="185" font-family="sans-serif" font-size="16" font-weight="800" fill="#f472b6">✈️ Travel &amp; Automotive</text>
+    <text x="600" y="215" font-family="sans-serif" font-size="12" fill="#94a3b8">• Destination Ideas</text>
+    <text x="600" y="235" font-family="sans-serif" font-size="12" fill="#94a3b8">• Vehicle Maintenance</text>
+  </g>
+</svg>
