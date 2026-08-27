@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="hrmsModBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="modAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="500" fill="url(#hrmsModBg)" rx="16"/>
+  <circle cx="850" cy="120" r="180" fill="#0284c7" opacity="0.12" filter="blur(45px)"/>
+
+  <rect x="40" y="40" width="920" height="420" rx="16" fill="#ffffff" fill-opacity="0.04" stroke="url(#modAccent)" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="80" y="95" font-family="sans-serif" font-size="24" font-weight="900" fill="#ffffff">HRMS Globex Core HR Modules &amp; Functions</text>
+  <text x="80" y="125" font-family="sans-serif" font-size="15" fill="#cbd5e1">Centralized Workforce Management Across Attendance, Leave, Performance &amp; Self-Service</text>
+
+  <!-- Modules Grid -->
+  <g transform="translate(80, 155)">
+    <!-- Attendance Card -->
+    <rect x="0" y="0" width="260" height="130" rx="12" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="20" y="35" font-family="sans-serif" font-size="16" font-weight="800" fill="#38bdf8">⏰ Attendance Tracking</text>
+    <text x="20" y="65" font-family="sans-serif" font-size="12" fill="#94a3b8">• Digital Punch &amp; Timings</text>
+    <text x="20" y="85" font-family="sans-serif" font-size="12" fill="#94a3b8">• Working Days &amp; History</text>
+    <text x="20" y="105" font-family="sans-serif" font-size="12" fill="#94a3b8">• Absence Logging</text>
+
+    <!-- Leave Management Card -->
+    <rect x="290" y="0" width="260" height="130" rx="12" fill="#0f172a" stroke="#34d399" stroke-width="1.5"/>
+    <text x="310" y="35" font-family="sans-serif" font-size="16" font-weight="800" fill="#34d399">🌴 Leave Applications</text>
+    <text x="310" y="65" font-family="sans-serif" font-size="12" fill="#94a3b8">• Submit Online Requests</text>
+    <text x="310" y="85" font-family="sans-serif" font-size="12" fill="#94a3b8">• Approval Workflow</text>
+    <text x="310" y="105" font-family="sans-serif" font-size="12" fill="#94a3b8">• Leave Balance Tracking</text>
+
+    <!-- Performance Management Card -->
+    <rect x="580" y="0" width="260" height="130" rx="12" fill="#0f172a" stroke="#fbbf24" stroke-width="1.5"/>
+    <text x="600" y="35" font-family="sans-serif" font-size="16" font-weight="800" fill="#fbbf24">📈 Performance Reviews</text>
+    <text x="600" y="65" font-family="sans-serif" font-size="12" fill="#94a3b8">• Employee Self-Assessment</text>
+    <text x="600" y="85" font-family="sans-serif" font-size="12" fill="#94a3b8">• Manager Review Stage</text>
+    <text x="600" y="105" font-family="sans-serif" font-size="12" fill="#94a3b8">• Structured Appraisals</text>
+
+    <!-- Self Service Card -->
+    <rect x="0" y="150" width="260" height="120" rx="12" fill="#0f172a" stroke="#c084fc" stroke-width="1.5"/>
+    <text x="20" y="185" font-family="sans-serif" font-size="16" font-weight="800" fill="#c084fc">👤 Self-Service Portal</text>
+    <text x="20" y="215" font-family="sans-serif" font-size="12" fill="#94a3b8">• Update Personal Records</text>
+    <text x="20" y="235" font-family="sans-serif" font-size="12" fill="#94a3b8">• Access Internal Requests</text>
+
+    <!-- Payroll Info Card -->
+    <rect x="290" y="150" width="260" height="120" rx="12" fill="#0f172a" stroke="#f472b6" stroke-width="1.5"/>
+    <text x="310" y="185" font-family="sans-serif" font-size="16" font-weight="800" fill="#f472b6">💵 Payroll &amp; Compensation</text>
+    <text x="310" y="215" font-family="sans-serif" font-size="12" fill="#94a3b8">• Salary Records &amp; Deductions</text>
+    <text x="310" y="235" font-family="sans-serif" font-size="12" fill="#94a3b8">• Compensation Overview</text>
+
+    <!-- HR Administration Card -->
+    <rect x="580" y="150" width="260" height="120" rx="12" fill="#0f172a" stroke="#60a5fa" stroke-width="1.5"/>
+    <text x="600" y="185" font-family="sans-serif" font-size="16" font-weight="800" fill="#60a5fa">🛡️ Central HR Administration</text>
+    <text x="600" y="215" font-family="sans-serif" font-size="12" fill="#94a3b8">• Master Employee Files</text>
+    <text x="600" y="235" font-family="sans-serif" font-size="12" fill="#94a3b8">• Workforce Reporting</text>
+  </g>
+</svg>

@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%">
+  <defs>
+    <linearGradient id="hrmsHeroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="hrmsBlueGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="hrmsEmeraldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <filter id="hrmsShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#hrmsHeroBg)"/>
+
+  <!-- Subtle Grid Lines -->
+  <g stroke="#ffffff" stroke-opacity="0.03" stroke-width="1">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="500" x2="1200" y2="500"/>
+    <line x1="200" y1="0" x2="200" y2="630"/>
+    <line x1="400" y1="0" x2="400" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="800" y1="0" x2="800" y2="630"/>
+    <line x1="1000" y1="0" x2="1000" y2="630"/>
+  </g>
+
+  <!-- Glowing Accents -->
+  <circle cx="180" cy="180" r="240" fill="#38bdf8" opacity="0.12" filter="blur(50px)"/>
+  <circle cx="1020" cy="450" r="260" fill="#10b981" opacity="0.1" filter="blur(50px)"/>
+
+  <!-- Main Container Card -->
+  <rect x="80" y="80" width="1040" height="470" rx="24" fill="#ffffff" fill-opacity="0.04" stroke="url(#hrmsBlueGrad)" stroke-width="2" filter="url(#hrmsShadow)"/>
+
+  <!-- Left Content Info -->
+  <text x="140" y="160" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="800" fill="#38bdf8" letter-spacing="2">ENTERPRISE WORKFORCE HRMS PORTAL</text>
+  
+  <text x="140" y="225" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="44" font-weight="900" fill="#ffffff">HRMS Globex Guide</text>
+  
+  <text x="140" y="275" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="22" font-weight="600" fill="#cbd5e1">Login, Attendance, Leave, Performance &amp; Benefits</text>
+
+  <!-- Module Badges -->
+  <g transform="translate(140, 320)">
+    <rect x="0" y="0" width="140" height="40" rx="20" fill="url(#hrmsBlueGrad)"/>
+    <text x="70" y="25" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Attendance</text>
+
+    <rect x="155" y="0" width="130" height="40" rx="20" fill="url(#hrmsEmeraldGrad)"/>
+    <text x="220" y="25" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Leave Portal</text>
+
+    <rect x="300" y="0" width="130" height="40" rx="20" fill="#ffffff" fill-opacity="0.1" stroke="#ffffff" stroke-opacity="0.2"/>
+    <text x="365" y="25" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Performance</text>
+
+    <rect x="445" y="0" width="120" height="40" rx="20" fill="#ffffff" fill-opacity="0.1" stroke="#ffffff" stroke-opacity="0.2"/>
+    <text x="505" y="25" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Self-Service</text>
+  </g>
+
+  <!-- Right Side Graphic: HRMS Login & Dashboard Interface Mockup -->
+  <g transform="translate(740, 140)">
+    <rect x="0" y="0" width="280" height="380" rx="24" fill="#0f172a" stroke="#334155" stroke-width="3" filter="url(#hrmsShadow)"/>
+    <rect x="12" y="16" width="256" height="348" rx="16" fill="#1e293b"/>
+
+    <!-- Search Header -->
+    <rect x="25" y="35" width="230" height="40" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <text x="40" y="60" font-family="sans-serif" font-size="12" fill="#94a3b8">🔑 HRMS Globex Portal</text>
+
+    <!-- Login Form Card -->
+    <g transform="translate(25, 90)">
+      <rect x="0" y="0" width="230" height="110" rx="10" fill="#0f172a"/>
+      <text x="15" y="25" font-family="sans-serif" font-size="11" font-weight="800" fill="#38bdf8">EMPLOYEE AUTHENTICATION</text>
+      <rect x="15" y="35" width="200" height="24" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="25" y="51" font-family="sans-serif" font-size="10" fill="#64748b">Username / Employee Code</text>
+      <rect x="15" y="68" width="200" height="24" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="25" y="84" font-family="sans-serif" font-size="10" fill="#64748b">••••••••••••</text>
+    </g>
+
+    <!-- Dashboard Quick Action Card -->
+    <g transform="translate(25, 215)">
+      <rect x="0" y="0" width="230" height="115" rx="10" fill="#0284c7" fill-opacity="0.15" stroke="#38bdf8" stroke-width="1"/>
+      <text x="15" y="30" font-family="sans-serif" font-size="12" font-weight="800" fill="#34d399">CENTRALIZED DASHBOARD</text>
+      <text x="15" y="52" font-family="sans-serif" font-size="11" fill="#cbd5e1">Attendance, Leave &amp; Appraisal</text>
+      <rect x="15" y="65" width="200" height="35" rx="6" fill="url(#hrmsBlueGrad)"/>
+      <text x="115" y="87" font-family="sans-serif" font-size="12" font-weight="800" fill="#ffffff" text-anchor="middle">Access HR Portal →</text>
+    </g>
+  </g>
+
+  <!-- CNLawBlog Footer Seal -->
+  <g transform="translate(140, 420)">
+    <rect x="0" y="0" width="380" height="70" rx="12" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="20" y="32" font-family="sans-serif" font-size="14" font-weight="800" fill="#ffffff">CNLawBlog Tech &amp; Software Review</text>
+    <text x="20" y="52" font-family="sans-serif" font-size="12" fill="#94a3b8">Verified Editorial Guide • cnlawblog.shop</text>
+  </g>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="hrmsCompBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="compGradHrms" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="500" fill="url(#hrmsCompBg)" rx="16"/>
+  <circle cx="180" cy="380" r="190" fill="#0284c7" opacity="0.1" filter="blur(45px)"/>
+
+  <rect x="40" y="40" width="920" height="420" rx="16" fill="#ffffff" fill-opacity="0.04" stroke="url(#compGradHrms)" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <text x="80" y="95" font-family="sans-serif" font-size="24" font-weight="900" fill="#ffffff">HRMS Globex vs. Traditional HR Processes</text>
+  <text x="80" y="125" font-family="sans-serif" font-size="15" fill="#cbd5e1">Transforming Manual Paperwork into Centralized Digital Workflows</text>
+
+  <!-- Comparison Table Graphic -->
+  <g transform="translate(80, 155)">
+    <rect x="0" y="0" width="840" height="250" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    
+    <!-- Table Header -->
+    <rect x="0" y="0" width="840" height="45" rx="12" fill="#1e293b"/>
+    <text x="30" y="28" font-family="sans-serif" font-size="14" font-weight="800" fill="#f87171">TRADITIONAL HR PROCESSES</text>
+    <text x="420" y="28" font-family="sans-serif" font-size="14" font-weight="800" fill="#34d399">HRMS GLOBEX DIGITAL APPROACH</text>
+
+    <!-- Row 1 -->
+    <line x1="0" y1="45" x2="840" y2="45" stroke="#334155" stroke-width="1"/>
+    <text x="30" y="75" font-family="sans-serif" font-size="13" fill="#cbd5e1">Paper-based requests &amp; forms</text>
+    <text x="420" y="75" font-family="sans-serif" font-size="13" font-weight="700" fill="#34d399">Digital requests &amp; automated submission</text>
+
+    <!-- Row 2 -->
+    <line x1="0" y1="95" x2="840" y2="95" stroke="#334155" stroke-width="1"/>
+    <text x="30" y="125" font-family="sans-serif" font-size="13" fill="#cbd5e1">Manual &amp; disconnected employee records</text>
+    <text x="420" y="125" font-family="sans-serif" font-size="13" font-weight="700" fill="#38bdf8">Centralized master employee records</text>
+
+    <!-- Row 3 -->
+    <line x1="0" y1="145" x2="840" y2="145" stroke="#334155" stroke-width="1"/>
+    <text x="30" y="175" font-family="sans-serif" font-size="13" fill="#cbd5e1">Email-based approvals &amp; delay</text>
+    <text x="420" y="175" font-family="sans-serif" font-size="13" font-weight="700" fill="#fbbf24">Workflow-based real-time approvals</text>
+
+    <!-- Row 4 -->
+    <line x1="0" y1="195" x2="840" y2="195" stroke="#334155" stroke-width="1"/>
+    <text x="30" y="225" font-family="sans-serif" font-size="13" fill="#cbd5e1">HR handles every single routine query</text>
+    <text x="420" y="225" font-family="sans-serif" font-size="13" font-weight="700" fill="#c084fc">24/7 Employee self-service access</text>
+  </g>
+</svg>
