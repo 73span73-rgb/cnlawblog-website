@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="eleadSsoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="ssoLineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="500" fill="url(#eleadSsoBg)" rx="16"/>
+  <circle cx="850" cy="120" r="180" fill="#3b82f6" opacity="0.12" filter="blur(45px)"/>
+
+  <rect x="40" y="40" width="920" height="420" rx="16" fill="#ffffff" fill-opacity="0.04" stroke="url(#ssoLineGrad)" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="80" y="95" font-family="sans-serif" font-size="24" font-weight="900" fill="#ffffff">Elead CRM Single Sign-On (SSO) Workflow</text>
+  <text x="80" y="125" font-family="sans-serif" font-size="15" fill="#cbd5e1">How Dealership Identity Providers Authenticate Employees</text>
+
+  <!-- Flowchart Diagram -->
+  <g transform="translate(80, 165)">
+    <!-- Box 1: Employee -->
+    <rect x="0" y="0" width="230" height="210" rx="14" fill="#1e293b" stroke="#f97316" stroke-width="2"/>
+    <circle cx="115" cy="45" r="22" fill="#f97316"/>
+    <text x="115" y="52" font-family="sans-serif" font-size="14" font-weight="900" fill="#ffffff" text-anchor="middle">👤</text>
+    <text x="115" y="90" font-family="sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">Dealership Employee</text>
+    <text x="115" y="118" font-family="sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Navigates to CDK / Elead</text>
+    <text x="115" y="135" font-family="sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Application Login Hub</text>
+    <text x="115" y="165" font-family="sans-serif" font-size="12" font-weight="800" fill="#fb923c" text-anchor="middle">Step 1: Select SSO Option</text>
+
+    <!-- Connector 1 -->
+    <path d="M 235,105 L 295,105" stroke="#f97316" stroke-width="3" stroke-dasharray="6 4"/>
+
+    <!-- Box 2: Identity Provider -->
+    <rect x="300" y="0" width="240" height="210" rx="14" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+    <circle cx="420" cy="45" r="22" fill="#2563eb"/>
+    <text x="420" y="52" font-family="sans-serif" font-size="14" font-weight="900" fill="#ffffff" text-anchor="middle">🔑</text>
+    <text x="420" y="90" font-family="sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">Dealership IdP / SSO</text>
+    <text x="420" y="118" font-family="sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Okta, OneLogin, or CDK</text>
+    <text x="420" y="135" font-family="sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Corporate Identity System</text>
+    <text x="420" y="165" font-family="sans-serif" font-size="12" font-weight="800" fill="#60a5fa" text-anchor="middle">Step 2: Authenticate Identity</text>
+
+    <!-- Connector 2 -->
+    <path d="M 545,105 L 605,105" stroke="#3b82f6" stroke-width="3" stroke-dasharray="6 4"/>
+
+    <!-- Box 3: Elead CRM Dashboard -->
+    <rect x="610" y="0" width="230" height="210" rx="14" fill="#1e293b" stroke="#10b981" stroke-width="2"/>
+    <circle cx="725" cy="45" r="22" fill="#10b981"/>
+    <text x="725" y="52" font-family="sans-serif" font-size="14" font-weight="900" fill="#ffffff" text-anchor="middle">📊</text>
+    <text x="725" y="90" font-family="sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">Elead CRM Dashboard</text>
+    <text x="725" y="118" font-family="sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Access Authorized Leads,</text>
+    <text x="725" y="135" font-family="sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Customer Data &amp; Desking</text>
+    <text x="725" y="165" font-family="sans-serif" font-size="12" font-weight="800" fill="#34d399" text-anchor="middle">Step 3: Secure Session Active</text>
+  </g>
+</svg>

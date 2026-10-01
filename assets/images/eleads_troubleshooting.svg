@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="eleadTroubleBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b132c"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="troubleGradElead" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="500" fill="url(#eleadTroubleBg)" rx="16"/>
+  <circle cx="850" cy="380" r="190" fill="#34d399" opacity="0.1" filter="blur(45px)"/>
+
+  <rect x="40" y="40" width="920" height="420" rx="16" fill="#ffffff" fill-opacity="0.04" stroke="url(#troubleGradElead)" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <text x="80" y="95" font-family="sans-serif" font-size="24" font-weight="900" fill="#ffffff">Eleads Login Troubleshooting &amp; Fixes</text>
+  <text x="80" y="125" font-family="sans-serif" font-size="15" fill="#cbd5e1">Solutions for Forgotten Passwords, SSO Loops &amp; Account Locks</text>
+
+  <!-- Troubleshooting Checklist Cards -->
+  <g transform="translate(80, 155)">
+    <!-- Fix 1 -->
+    <rect x="0" y="0" width="260" height="110" rx="12" fill="#1e293b" stroke="#f97316" stroke-width="1.5"/>
+    <text x="20" y="35" font-family="sans-serif" font-size="14" font-weight="800" fill="#fb923c">1. Check SSO Requirement</text>
+    <text x="20" y="65" font-family="sans-serif" font-size="12" fill="#94a3b8">If dealership enabled SSO,</text>
+    <text x="20" y="85" font-family="sans-serif" font-size="12" fill="#94a3b8">use SSO login button instead</text>
+
+    <!-- Fix 2 -->
+    <rect x="290" y="0" width="260" height="110" rx="12" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="310" y="35" font-family="sans-serif" font-size="14" font-weight="800" fill="#60a5fa">2. Official Password Reset</text>
+    <text x="310" y="65" font-family="sans-serif" font-size="12" fill="#94a3b8">Click "Forgot password?" on</text>
+    <text x="310" y="85" font-family="sans-serif" font-size="12" fill="#94a3b8">official CDK login page</text>
+
+    <!-- Fix 3 -->
+    <rect x="580" y="0" width="260" height="110" rx="12" fill="#1e293b" stroke="#fbbf24" stroke-width="1.5"/>
+    <text x="600" y="35" font-family="sans-serif" font-size="14" font-weight="800" fill="#fbbf24">3. Incognito Window</text>
+    <text x="600" y="65" font-family="sans-serif" font-size="12" fill="#94a3b8">Clear browser cookies or try</text>
+    <text x="600" y="85" font-family="sans-serif" font-size="12" fill="#94a3b8">a private window for redirect loops</text>
+
+    <!-- Fix 4 -->
+    <rect x="0" y="130" width="260" height="110" rx="12" fill="#1e293b" stroke="#34d399" stroke-width="1.5"/>
+    <text x="20" y="165" font-family="sans-serif" font-size="14" font-weight="800" fill="#34d399">4. Verify Official URL</text>
+    <text x="20" y="195" font-family="sans-serif" font-size="12" fill="#94a3b8">Avoid random search ads;</text>
+    <text x="20" y="215" font-family="sans-serif" font-size="12" fill="#94a3b8">start from CDK's official hub</text>
+
+    <!-- Fix 5 -->
+    <rect x="290" y="130" width="260" height="110" rx="12" fill="#1e293b" stroke="#c084fc" stroke-width="1.5"/>
+    <text x="310" y="165" font-family="sans-serif" font-size="14" font-weight="800" fill="#c084fc">5. Contact Dealership IT</text>
+    <text x="310" y="195" font-family="sans-serif" font-size="12" fill="#94a3b8">If account is locked, ask your</text>
+    <text x="310" y="215" font-family="sans-serif" font-size="12" fill="#94a3b8">admin or CDK support to unlock</text>
+  </g>
+</svg>

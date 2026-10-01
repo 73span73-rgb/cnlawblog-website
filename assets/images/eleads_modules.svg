@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="eleadModBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="modAccentElead" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="500" fill="url(#eleadModBg)" rx="16"/>
+  <circle cx="850" cy="380" r="180" fill="#a855f7" opacity="0.12" filter="blur(45px)"/>
+
+  <rect x="40" y="40" width="920" height="420" rx="16" fill="#ffffff" fill-opacity="0.04" stroke="url(#modAccentElead)" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="80" y="95" font-family="sans-serif" font-size="24" font-weight="900" fill="#ffffff">Elead CRM Key Modules After Login</text>
+  <text x="80" y="125" font-family="sans-serif" font-size="15" fill="#cbd5e1">Connected Automotive Customer Workflows &amp; Sales Management</text>
+
+  <!-- Grid of 8 Modules -->
+  <g transform="translate(80, 155)">
+    <!-- Row 1 -->
+    <rect x="0" y="0" width="195" height="110" rx="10" fill="#1e293b" stroke="#f97316" stroke-width="1.5"/>
+    <text x="15" y="32" font-family="sans-serif" font-size="13" font-weight="800" fill="#fb923c">1. Lead Management</text>
+    <text x="15" y="55" font-family="sans-serif" font-size="11" fill="#94a3b8">Capture web, phone &amp;</text>
+    <text x="15" y="72" font-family="sans-serif" font-size="11" fill="#94a3b8">marketplace prospects</text>
+
+    <rect x="215" y="0" width="195" height="110" rx="10" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="230" y="32" font-family="sans-serif" font-size="13" font-weight="800" fill="#60a5fa">2. Customer Records</text>
+    <text x="230" y="55" font-family="sans-serif" font-size="11" fill="#94a3b8">Maintain buyer &amp;</text>
+    <text x="230" y="72" font-family="sans-serif" font-size="11" fill="#94a3b8">vehicle history</text>
+
+    <rect x="430" y="0" width="195" height="110" rx="10" fill="#1e293b" stroke="#34d399" stroke-width="1.5"/>
+    <text x="445" y="32" font-family="sans-serif" font-size="13" font-weight="800" fill="#34d399">3. Unified Inbox</text>
+    <text x="445" y="55" font-family="sans-serif" font-size="11" fill="#94a3b8">Manage email, text &amp;</text>
+    <text x="445" y="72" font-family="sans-serif" font-size="11" fill="#94a3b8">chat messages</text>
+
+    <rect x="645" y="0" width="195" height="110" rx="10" fill="#1e293b" stroke="#c084fc" stroke-width="1.5"/>
+    <text x="660" y="32" font-family="sans-serif" font-size="13" font-weight="800" fill="#c084fc">4. AI Virtual Assistant</text>
+    <text x="660" y="55" font-family="sans-serif" font-size="11" fill="#94a3b8">Automated follow-ups &amp;</text>
+    <text x="660" y="72" font-family="sans-serif" font-size="11" fill="#94a3b8">smart writing tools</text>
+
+    <!-- Row 2 -->
+    <rect x="0" y="130" width="195" height="110" rx="10" fill="#1e293b" stroke="#fbbf24" stroke-width="1.5"/>
+    <text x="15" y="162" font-family="sans-serif" font-size="13" font-weight="800" fill="#fbbf24">5. Desking Tools</text>
+    <text x="15" y="185" font-family="sans-serif" font-size="11" fill="#94a3b8">Support deal structuring</text>
+    <text x="15" y="202" font-family="sans-serif" font-size="11" fill="#94a3b8">&amp; financial workflows</text>
+
+    <rect x="215" y="130" width="195" height="110" rx="10" fill="#1e293b" stroke="#f472b6" stroke-width="1.5"/>
+    <text x="230" y="162" font-family="sans-serif" font-size="13" font-weight="800" fill="#f472b6">6. CRM Reporting</text>
+    <text x="230" y="185" font-family="sans-serif" font-size="11" fill="#94a3b8">Monitor sales team &amp;</text>
+    <text x="230" y="202" font-family="sans-serif" font-size="11" fill="#94a3b8">campaign metrics</text>
+
+    <rect x="430" y="130" width="195" height="110" rx="10" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="445" y="162" font-family="sans-serif" font-size="13" font-weight="800" fill="#38bdf8">7. Targeted Marketing</text>
+    <text x="445" y="185" font-family="sans-serif" font-size="11" fill="#94a3b8">Automate customer</text>
+    <text x="445" y="202" font-family="sans-serif" font-size="11" fill="#94a3b8">retention campaigns</text>
+
+    <rect x="645" y="130" width="195" height="110" rx="10" fill="#1e293b" stroke="#a7f3d0" stroke-width="1.5"/>
+    <text x="660" y="162" font-family="sans-serif" font-size="13" font-weight="800" fill="#a7f3d0">8. DMS Integration</text>
+    <text x="660" y="185" font-family="sans-serif" font-size="11" fill="#94a3b8">Connect inventory &amp;</text>
+    <text x="660" y="202" font-family="sans-serif" font-size="11" fill="#94a3b8">dealership operations</text>
+  </g>
+</svg>
