@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%">
+  <defs>
+    <linearGradient id="wwHeroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06121e"/>
+      <stop offset="50%" stop-color="#0d233a"/>
+      <stop offset="100%" stop-color="#193b5c"/>
+    </linearGradient>
+    <linearGradient id="wwEmeraldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="wwGoldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <filter id="wwShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#wwHeroBg)"/>
+
+  <!-- Subtle Glowing Orbs -->
+  <circle cx="200" cy="180" r="250" fill="#059669" opacity="0.15" filter="blur(60px)"/>
+  <circle cx="1000" cy="450" r="280" fill="#d97706" opacity="0.12" filter="blur(60px)"/>
+
+  <!-- Main Glass Container Card -->
+  <rect x="80" y="70" width="1040" height="490" rx="24" fill="#ffffff" fill-opacity="0.04" stroke="url(#wwEmeraldGrad)" stroke-width="2" filter="url(#wwShadow)"/>
+
+  <!-- Left Content Column -->
+  <text x="140" y="150" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="800" fill="#34d399" letter-spacing="2">UNCONVENTIONAL WEALTH &amp; NICHE BUSINESSES</text>
+  
+  <text x="140" y="215" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="44" font-weight="900" fill="#ffffff">Weird Wealth</text>
+  
+  <text x="140" y="265" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="22" font-weight="600" fill="#cbd5e1">Unusual Ways People Build Fortunes &amp; Get Rich</text>
+
+  <!-- Feature Badges -->
+  <g transform="translate(140, 310)">
+    <rect x="0" y="0" width="170" height="42" rx="21" fill="url(#wwEmeraldGrad)"/>
+    <text x="85" y="26" font-family="sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">💡 Niche Monetization</text>
+
+    <rect x="185" y="0" width="170" height="42" rx="21" fill="url(#wwGoldGrad)"/>
+    <text x="270" y="26" font-family="sans-serif" font-size="14" font-weight="800" fill="#ffffff" text-anchor="middle">📈 Digital Assets</text>
+
+    <rect x="370" y="0" width="160" height="42" rx="21" fill="#ffffff" fill-opacity="0.1" stroke="#ffffff" stroke-opacity="0.2"/>
+    <text x="450" y="26" font-family="sans-serif" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">🚀 Micro-SaaS</text>
+  </g>
+
+  <!-- Right Side Graphic: Wealth Creation Ecosystem Mockup -->
+  <g transform="translate(730, 120)">
+    <rect x="0" y="0" width="290" height="390" rx="20" fill="#0f172a" stroke="#059669" stroke-width="2" filter="url(#wwShadow)"/>
+    <rect x="12" y="16" width="266" height="358" rx="14" fill="#020617"/>
+
+    <!-- Screen Header -->
+    <rect x="25" y="32" width="240" height="40" rx="8" fill="#1e293b"/>
+    <circle cx="45" cy="52" r="8" fill="#10b981"/>
+    <text x="62" y="57" font-family="sans-serif" font-size="13" font-weight="800" fill="#ffffff">Weird Wealth Engine</text>
+
+    <!-- Asset Card 1: Micro-SaaS & Digital Products -->
+    <g transform="translate(25, 85)">
+      <rect x="0" y="0" width="240" height="90" rx="10" fill="#1e293b"/>
+      <text x="15" y="26" font-family="sans-serif" font-size="11" font-weight="800" fill="#34d399">RECURRING REVENUE MODEL</text>
+      <text x="15" y="48" font-family="sans-serif" font-size="13" font-weight="700" fill="#ffffff">2,000 Users @ $50 / mo</text>
+      <rect x="15" y="60" width="140" height="18" rx="4" fill="#10b981" fill-opacity="0.2"/>
+      <text x="85" y="73" font-family="sans-serif" font-size="10" font-weight="800" fill="#34d399" text-anchor="middle">$100,000 / MONTHLY ARR</text>
+    </g>
+
+    <!-- Asset Card 2: Niche Community / IP -->
+    <g transform="translate(25, 190)">
+      <rect x="0" y="0" width="240" height="85" rx="10" fill="#1e293b" stroke="#fbbf24" stroke-dasharray="3 3" stroke-width="1.5"/>
+      <text x="15" y="26" font-family="sans-serif" font-size="11" font-weight="800" fill="#fbbf24">UNCONVENTIONAL NICHE</text>
+      <text x="15" y="48" font-family="sans-serif" font-size="12" font-weight="700" fill="#ffffff">Overlooked High-Value Market</text>
+      <text x="15" y="68" font-family="sans-serif" font-size="10" fill="#94a3b8">Low Competition • High Margin</text>
+    </g>
+
+    <!-- Action Button -->
+    <g transform="translate(25, 290)">
+      <rect x="0" y="0" width="240" height="44" rx="22" fill="url(#wwEmeraldGrad)"/>
+      <text x="120" y="27" font-family="sans-serif" font-size="13" font-weight="800" fill="#ffffff" text-anchor="middle">Explore Wealth Strategies →</text>
+    </g>
+  </g>
+
+  <!-- CNLawBlog Seal -->
+  <g transform="translate(140, 415)">
+    <rect x="0" y="0" width="410" height="65" rx="12" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.1"/>
+    <text x="20" y="30" font-family="sans-serif" font-size="14" font-weight="800" fill="#ffffff">CNLawBlog Business &amp; Financial Analysis</text>
+    <text x="20" y="48" font-family="sans-serif" font-size="12" fill="#94a3b8">Verified Wealth Creation Review • cnlawblog.shop</text>
+  </g>
+</svg>
