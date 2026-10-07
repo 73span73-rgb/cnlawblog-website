@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mcCompBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b132c"/>
+      <stop offset="100%" stop-color="#1c2541"/>
+    </linearGradient>
+    <linearGradient id="compGradMc" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="500" fill="url(#mcCompBg)" rx="16"/>
+  <circle cx="850" cy="120" r="140" fill="#3b82f6" opacity="0.08" filter="blur(40px)"/>
+  <circle cx="150" cy="380" r="160" fill="#f59e0b" opacity="0.08" filter="blur(45px)"/>
+
+  <rect x="40" y="35" width="920" height="430" rx="16" fill="#ffffff" fill-opacity="0.03" stroke="url(#compGradMc)" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <text x="80" y="85" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="900" fill="#ffffff">Domain Comparison: modcityusa.com vs modcityusa.org</text>
+  <text x="80" y="115" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" fill="#94a3b8">Key distinctions to prevent confusing the commercial shop with an unrelated domain</text>
+
+  <!-- Comparison Table Graphic -->
+  <g transform="translate(80, 145)">
+    <rect x="0" y="0" width="840" height="270" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    
+    <!-- Table Header -->
+    <rect x="0" y="0" width="840" height="48" rx="12" fill="#0f172a"/>
+    <text x="30" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#cbd5e1" letter-spacing="1">FACTOR</text>
+    <text x="280" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#60a5fa" letter-spacing="1">MODCITYUSA.COM (.COM STORE)</text>
+    <text x="590" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#fbbf24" letter-spacing="1">MODCITYUSA.ORG (.ORG SITE)</text>
+
+    <!-- Row 1 -->
+    <line x1="0" y1="48" x2="840" y2="48" stroke="#334155" stroke-width="1"/>
+    <text x="30" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#ffffff">Reported Purpose</text>
+    <text x="280" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#e2e8f0">Online clothing &amp; lifestyle store</text>
+    <text x="590" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#cbd5e1">General article / blog-style site</text>
+
+    <!-- Row 2 -->
+    <line x1="0" y1="104" x2="840" y2="104" stroke="#334155" stroke-width="1"/>
+    <text x="30" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#ffffff">Where You Might Pay</text>
+    <text x="280" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#60a5fa">Yes, product checkout cart</text>
+    <text x="590" y="138" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#cbd5e1">Not a clear shopping site</text>
+
+    <!-- Row 3 -->
+    <line x1="0" y1="160" x2="840" y2="160" stroke="#334155" stroke-width="1"/>
+    <text x="30" y="194" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#ffffff">Contact Details</text>
+    <text x="280" y="194" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#e2e8f0">Check the live storefront site</text>
+    <text x="590" y="194" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#fca5a5">Placeholder address/phone seen</text>
+
+    <!-- Row 4 -->
+    <line x1="0" y1="216" x2="840" y2="216" stroke="#334155" stroke-width="1"/>
+    <text x="30" y="250" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#ffffff">Safe Assumption</text>
+    <text x="280" y="250" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#34d399">Treat as new retailer &amp; verify</text>
+    <text x="590" y="250" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#cbd5e1">Do not treat as a store</text>
+  </g>
+</svg>
