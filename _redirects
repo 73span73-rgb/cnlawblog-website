@@ -1,0 +1,4 @@
+# 301 Permanent Redirects
+/write-for-us    /contact/    301!
+/write-for-us/   /contact/    301!
+/write-for-us/*  /contact/    301!

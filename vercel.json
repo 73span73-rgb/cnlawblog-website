@@ -1,6 +1,18 @@
 {
   "cleanUrls": true,
   "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/write-for-us",
+      "destination": "/contact/",
+      "permanent": true
+    },
+    {
+      "source": "/write-for-us/:path*",
+      "destination": "/contact/",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/assets/(.*)",
