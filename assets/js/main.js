@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Contact Form Interactivity & Guaranteed WhatsApp Redirection
+  // Contact Form Submission (Mailto)
   const contactForm = document.getElementById('contact-form');
   const formStatus = document.getElementById('form-status');
   if (contactForm) {
@@ -40,23 +40,21 @@ document.addEventListener('DOMContentLoaded', () => {
       const name = document.getElementById('name')?.value || '';
       const email = document.getElementById('email')?.value || '';
       const subjectSelect = document.getElementById('subject');
-      const subjectText = subjectSelect ? subjectSelect.options[subjectSelect.selectedIndex].text : '';
+      const subjectText = subjectSelect ? subjectSelect.options[subjectSelect.selectedIndex].text : 'Inquiry';
       const message = document.getElementById('message')?.value || '';
 
-      const formattedText = `Hello CNLawBlog Team,%0A%0A*New Inquiry Details:*%0A👤 *Name:* ${encodeURIComponent(name)}%0A📧 *Email:* ${encodeURIComponent(email)}%0A📌 *Subject:* ${encodeURIComponent(subjectText)}%0A💬 *Message:* ${encodeURIComponent(message)}`;
-      const whatsappNumber = "918200194578";
-      const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${formattedText}`;
+      const body = `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`;
+      const mailtoUrl = `mailto:plusplymarketing@gmail.com?subject=${encodeURIComponent(subjectText)}&body=${encodeURIComponent(body)}`;
 
       if (formStatus) {
         formStatus.style.display = 'block';
         formStatus.className = 'callout';
         formStatus.style.background = '#ecfdf5';
         formStatus.style.borderColor = '#10b981';
-        formStatus.innerHTML = '<strong>Redirecting to WhatsApp...</strong> Please wait while we connect you to +91 8200194578.';
+        formStatus.innerHTML = '<strong>Opening Email Client...</strong> Sending inquiry to plusplymarketing@gmail.com.';
       }
 
-      // Direct synchronous location redirect to prevent browser popup blockers
-      window.location.href = whatsappUrl;
+      window.location.href = mailtoUrl;
     });
   }
 });
